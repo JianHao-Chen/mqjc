@@ -1,1 +1,175 @@
-<mxfile host="app.diagrams.net" modified="2023-02-24T09:04:19.353Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" version="20.8.23" etag="C4sVVZkl0JvJYTHKPzal" type="github"><diagram name="第 1 页" id="iqBq8n-MjG-MIpreYh5P">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-03-31T03:05:12.886Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="Hl210zIzQhazPyZ3XRfv" version="21.0.6" type="github">
+  <diagram name="第 1 页" id="iqBq8n-MjG-MIpreYh5P">
+    <mxGraphModel dx="2261" dy="788" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="wiUwT_M4Jax9etWUjawg-1" value="客户端支付成功" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="120" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wiUwT_M4Jax9etWUjawg-2" value="服务端校验订单" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="120" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wiUwT_M4Jax9etWUjawg-3" value="主动发起订阅流程" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-120" y="120" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wiUwT_M4Jax9etWUjawg-4" value="下发贵族" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="414" y="75" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wiUwT_M4Jax9etWUjawg-5" value="返回错误" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="414" y="140" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wiUwT_M4Jax9etWUjawg-6" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wiUwT_M4Jax9etWUjawg-2" target="wiUwT_M4Jax9etWUjawg-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="260" as="sourcePoint" />
+            <mxPoint x="370" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wiUwT_M4Jax9etWUjawg-7" value="成功" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="340" y="75" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wiUwT_M4Jax9etWUjawg-8" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wiUwT_M4Jax9etWUjawg-1" target="wiUwT_M4Jax9etWUjawg-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="180" y="240" as="sourcePoint" />
+            <mxPoint x="230" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wiUwT_M4Jax9etWUjawg-9" value="校验请求" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="150" y="105" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wiUwT_M4Jax9etWUjawg-10" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wiUwT_M4Jax9etWUjawg-2" target="wiUwT_M4Jax9etWUjawg-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="130" as="sourcePoint" />
+            <mxPoint x="424" y="105" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wiUwT_M4Jax9etWUjawg-11" value="失败" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="340" y="160" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wiUwT_M4Jax9etWUjawg-12" value="官方平台" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry y="280" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wiUwT_M4Jax9etWUjawg-15" value="服务端" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry y="370" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wiUwT_M4Jax9etWUjawg-16" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="wiUwT_M4Jax9etWUjawg-12" target="wiUwT_M4Jax9etWUjawg-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="380" as="sourcePoint" />
+            <mxPoint x="290" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wiUwT_M4Jax9etWUjawg-17" value="发送通知" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="330" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wiUwT_M4Jax9etWUjawg-20" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="wiUwT_M4Jax9etWUjawg-15" target="wiUwT_M4Jax9etWUjawg-21">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="150" y="510" as="sourcePoint" />
+            <mxPoint x="200" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wiUwT_M4Jax9etWUjawg-21" value="根据平台交易ID&lt;br&gt;查找业务订单" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry y="480" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wiUwT_M4Jax9etWUjawg-22" value="安卓：根据字段&amp;nbsp;latestOrderId&lt;br&gt;IOS：根据字段 TransactionId" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="480" width="230" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="wiUwT_M4Jax9etWUjawg-23" value="判断是否重复消息&lt;br&gt;（根据订单状态、订单过期时间判断）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-160" y="600" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wiUwT_M4Jax9etWUjawg-24" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="wiUwT_M4Jax9etWUjawg-21" target="wiUwT_M4Jax9etWUjawg-23">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="110" y="600" as="sourcePoint" />
+            <mxPoint x="160" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wiUwT_M4Jax9etWUjawg-25" value="找到对应业务订单" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-120" y="550" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wiUwT_M4Jax9etWUjawg-26" value="不处理" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-240" y="720" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wiUwT_M4Jax9etWUjawg-27" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="wiUwT_M4Jax9etWUjawg-23" target="wiUwT_M4Jax9etWUjawg-26">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-50" y="760" as="sourcePoint" />
+            <mxPoint y="710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wiUwT_M4Jax9etWUjawg-28" value="重复" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-220" y="660" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wiUwT_M4Jax9etWUjawg-29" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="wiUwT_M4Jax9etWUjawg-23" target="wiUwT_M4Jax9etWUjawg-30">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-115" y="670" as="sourcePoint" />
+            <mxPoint x="-40" y="700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wiUwT_M4Jax9etWUjawg-30" value="更新业务订单信息" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-80" y="720" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wiUwT_M4Jax9etWUjawg-32" value="不重复" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-40" y="670" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wiUwT_M4Jax9etWUjawg-33" value="判断是否续订订单&lt;br&gt;（订单类型需要是&amp;nbsp;SUBSCRIPTION）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="600" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wiUwT_M4Jax9etWUjawg-34" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="wiUwT_M4Jax9etWUjawg-21" target="wiUwT_M4Jax9etWUjawg-33">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="70" y="530" as="sourcePoint" />
+            <mxPoint x="-80" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wiUwT_M4Jax9etWUjawg-35" value="找不到" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="130" y="550" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wiUwT_M4Jax9etWUjawg-37" value="不处理" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="720" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wiUwT_M4Jax9etWUjawg-38" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="wiUwT_M4Jax9etWUjawg-33" target="wiUwT_M4Jax9etWUjawg-37">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-115" y="670" as="sourcePoint" />
+            <mxPoint x="-170" y="730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wiUwT_M4Jax9etWUjawg-39" value="不是" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="670" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wiUwT_M4Jax9etWUjawg-40" value="找出关联的前订单" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="720" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wiUwT_M4Jax9etWUjawg-41" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="wiUwT_M4Jax9etWUjawg-33" target="wiUwT_M4Jax9etWUjawg-40">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="670" as="sourcePoint" />
+            <mxPoint x="150" y="730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wiUwT_M4Jax9etWUjawg-42" value="是" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="230" y="670" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wiUwT_M4Jax9etWUjawg-43" value="安卓：根据&amp;nbsp;obfuscatedExternalProfileId&lt;br&gt;IOS：根据字段 originalTransactionId" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="359" y="722.5" width="230" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="wiUwT_M4Jax9etWUjawg-44" value="插入新订单" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="820" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wiUwT_M4Jax9etWUjawg-45" value="不处理" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="830" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wiUwT_M4Jax9etWUjawg-46" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="wiUwT_M4Jax9etWUjawg-40" target="wiUwT_M4Jax9etWUjawg-45">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="670" as="sourcePoint" />
+            <mxPoint x="300" y="730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wiUwT_M4Jax9etWUjawg-47" value="找不到" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="180" y="790" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wiUwT_M4Jax9etWUjawg-48" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="wiUwT_M4Jax9etWUjawg-40" target="wiUwT_M4Jax9etWUjawg-44">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="300" y="770" as="sourcePoint" />
+            <mxPoint x="230" y="840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
